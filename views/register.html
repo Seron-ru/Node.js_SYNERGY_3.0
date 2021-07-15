@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Регистрация</title>
+	<meta charset="utf-8" />
+</head>
+
+<body>
+	<h1>Введите данные</h1>
+
+
+	<script>
+        // function RandomPassword(){
+        // var StringPassword = "",
+        //          StringSymbols = "1234567890qwertyuiopasdfghjklzxcvbnm",
+        //     CountRandom = 10 ;
+        // for (var i = 0; i<CountRandom; i++) {
+        //          Random = Math.round(Math.random()*StringSymbols.length);
+        //     var RandomUpper = Math.round(Math.random()*10);
+        //          if (RandomUpper>=5) {StringPassword += StringSymbols[Random].toUpperCase()}
+        //         if (RandomUpper<5) {StringPassword += StringSymbols[Random].toLowerCase()}      
+        // }
+
+        // document.write("Пароль: "+StringPassword);
+        // }
+	</script>
+
+
+	<form action="/register" method="post">
+		<label>Логин</label></br>
+		<input type="text" name="userLogin" /></br></br>
+		<label>Фамилия</label></br>
+		<input type="text" name="userSurname" /></br></br>
+		<label>Имя</label></br>
+		<input type="text" name="userName" /></br></br>
+		<label>Отчество</label></br>
+		<input type="text" name="userPatron" /></br></br>
+		<label>Серия паспорта</label></br>
+		<input type="number" name="userPassSer" /></br></br>
+		<label>Номер паспорта</label></br>
+		<input type="number" name="userPassNum" /></br></br>
+		<input type="submit" value="Отправить" />
+	</form>
+</body>
+<html>
